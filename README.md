@@ -17,7 +17,7 @@ https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI#f89bac21cfe947749
 PYTHON 3.6.1
 
 3.2处理DICOME文件
-SimpleITK 1.0.0
+SimpleITK 
 
 3.3处理XML文件
 minidom

@@ -40,7 +40,7 @@
 
 简单用法
 --------------
-###  1.调用simpleITKCheck模块以及relatedPackagesCheck检查相关的包是否正常安装，否则需要另行安装
+###  1.调用simpleITKCheck模块以及relatedPackagesCheck模块检查相关的包是否正常安装，否则需要另行安装
 ###  2.下载好数据("LIDC-IDRI")
 ###  3.使用dataSetup模块产生图像。
 ###  4.使用dataOrganize模块整理图像。

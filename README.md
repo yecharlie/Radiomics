@@ -29,5 +29,5 @@ http://insightsoftwareconsortium.github.io/SimpleITK-Notebooks/
 【3】python下解析xml
 http://www.runoob.com/python/python-xml.html
 
-【4】】minidom的一些用法
+【4】minidom的一些用法
 http://www.cnblogs.com/fnng/p/3581433.html

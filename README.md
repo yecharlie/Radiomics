@@ -26,7 +26,7 @@ minidom
 【1】simpleITK官网
 http://www.simpleitk.org/SimpleITK/help/documentation.html
 
-【2】simeleITK notebookds
+【2】simeleITK notebooks
 http://insightsoftwareconsortium.github.io/SimpleITK-Notebooks/
 
 【3】python下解析xml

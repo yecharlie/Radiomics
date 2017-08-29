@@ -18,7 +18,8 @@ SimpleITK 1.0.0
 3.3处理XML文件
 minidom
 
-参考
+4参考
+
 【1】simpleITK官网
 http://www.simpleitk.org/SimpleITK/help/documentation.html
 

@@ -154,6 +154,14 @@ def roi_region_cut(roi,image_array):
 
 DNN_INPUT_SIDE_LEN = 34
 def boundary_check(xCenter,yCenter,shape):
+	'''Check whether the cut is out of boundary
+
+	Check cut validity given image center and image size.
+	Note the image size is provided by DNN_INPUT_SIDE_LEN which
+	is relatively fixed.
+	It will return cut validity assessment and if valid a location (yMin,yMax,xMin,xMax)
+	will also be added to the end of assessment. 
+	'''
 
 	#the shape of Numpy ndaray is indexed as (z,y,x)
 	if yCenter - DNN_INPUT_SIDE_LEN // 2 + 1 < 0:

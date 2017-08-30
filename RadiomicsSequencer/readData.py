@@ -12,7 +12,7 @@ data_root = None
 '''Test data 
 
 Saved as a tuple:(images,labals)
-It is requried to call read_data_sets functuib
+It is requried to call read_data_sets function
 before user can access to the train and test data.
 '''
 test_data = None

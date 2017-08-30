@@ -1,6 +1,6 @@
 负责切割出肺结节图像
 =====================
-各模块及其接口的说明</br>
+各模块及其接口的说明
 --------------------
 
 ### 1.simpleITKCheck.py
@@ -20,7 +20,7 @@
   打印一张simpleITK图像的所有信息
 
   def show_image(image_array_path):</br>
-  读取一张已保存的切割好的图像（以npy格式存储），并显示它。前提是已经有Fiji等科学图像查看器，见[SimpleITK Notebook](http://insightsoftwareconsortium.github.io/SimpleITK-Notebooks/).
+  读取一张已保存的切割好的图像（以npy格式存储），并显示它。前提是已经有Fiji等科学图像查看器，见[SimpleITK Notebooks](http://insightsoftwareconsortium.github.io/SimpleITK-Notebooks/).
 
 ### 4.dataGenerator.py
 
@@ -40,10 +40,10 @@
 
 简单用法
 --------------
-###  1.调用simpleITKCheck模块以及relatedPackagesCheck模块检查相关的包是否正常安装，否则需要另行安装
-###  2.下载好数据("LIDC-IDRI")
-###  3.使用dataSetup模块产生图像。
-###  4.使用dataOrganize模块整理图像。
+####  1.调用simpleITKCheck模块以及relatedPackagesCheck模块检查相关的包是否正常安装，否则需要另行安装
+####  2.下载好数据("LIDC-IDRI")
+####  3.使用dataSetup模块产生图像。
+####  4.使用dataOrganize模块整理图像。
 最终产生切割好的肺结节图像和非肺结节图像，按1比2比例配置。所有图像按训练和测试两部分分类放置。有几个细节需要注意：一是这里把大小小于3毫米和大于3毫米的肺结节归为一类；
 二是非肺结节图像是在原图像中随机找点切割出来的，并不能保证不会把部分肺结节图像切进去，但出现这种情况的概率其实很小。
 
